@@ -13,10 +13,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka</name>
     <description>eureka</description>
+    <packaging>pom</packaging>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
     </properties>
+    <modules>
+        <module>discovery-server</module>
+        <module>persons-server</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
